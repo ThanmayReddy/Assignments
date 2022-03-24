@@ -13,7 +13,8 @@ on t.id = tcm.task_id
 inner join procesflow. checklist c 
 on tcm.checklist_id=c.id
 WHERE p.id =1 group by s.name,t.name;
-/*employee inner join*/;
+/*employee */
+/*inner join*/;
 
 SELECT e.id ,e.name ,e.salary ,e.city ,pem.id ,pem.project_id,pem.employee_id,p.id ,p.name ,p.department_id  
 FROM employee.employee e 
@@ -37,7 +38,6 @@ on e.id =pem.employee_id
 RIGHT  outer JOIN employee.projects p  
 on pem.project_id =p.id ;
 
-?
 /*concatinate*/;
 SELECT p.id ,p.name  FROM employee.projects p 
 union
