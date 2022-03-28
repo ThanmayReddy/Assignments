@@ -1,0 +1,35 @@
+body div{
+    font-size:x-large;
+}
+div{
+    background-color: #fef8f5);
+    padding: 10px;
+}
+a{
+    background-color: #fef8f5;
+}
+.float{
+    float: right;
+}
+.pad{
+    padding-bottom: 2cm;
+   
+}
+.wid{
+    width: 100%;
+}
+img{
+    max-width:100%;
+max-height:100%;
+}
+div.imag > img{
+    max-width:100%;
+max-height:100%;
+    
+
+}
+div ul.nav li a{
+    text-decoration: none;
+    color: #000000;
+    
+}
